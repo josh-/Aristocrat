@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030978AE1E56C4530017A933 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320084818F7DA720039CF05 /* Carbon.framework */; };
+		0320084D18F7DB760039CF05 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0320084A18F7DB760039CF05 /* GeneralPreferencesView.xib */; };
+		0320084E18F7DB760039CF05 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0320084C18F7DB760039CF05 /* GeneralPreferencesViewController.m */; };
+		034375511E614F9900FC9533 /* NSString+HeightForString.m in Sources */ = {isa = PBXBuildFile; fileRef = 034375501E614F9900FC9533 /* NSString+HeightForString.m */; };
+		0348ECC518F82089007509F1 /* Icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0348ECC418F82089007509F1 /* Icon.pdf */; };
+		03714D251D1D0FDA00AD9AF4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 03714D241D1D0FDA00AD9AF4 /* libz.tbd */; };
+		03AA2D66190235DE00B250A7 /* JPImageRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03AA2D65190235DE00B250A7 /* JPImageRecognizer.mm */; };
+		03AB1BCE18D7EEE700DACD5D /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB1BCD18D7EEE700DACD5D /* ApplicationServices.framework */; };
+		03AB1BD218D7EEF700DACD5D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB1BD118D7EEF700DACD5D /* CoreVideo.framework */; };
+		03AB1BD418D7EF1300DACD5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB1BD318D7EF1300DACD5D /* QuartzCore.framework */; };
+		03B6485118C9E7590019ADE3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B6485018C9E7590019ADE3 /* Cocoa.framework */; };
+		03B6485B18C9E7590019ADE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B6485918C9E7590019ADE3 /* InfoPlist.strings */; };
+		03B6485D18C9E7590019ADE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B6485C18C9E7590019ADE3 /* main.m */; };
+		03B6486118C9E7590019ADE3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03B6485F18C9E7590019ADE3 /* Credits.rtf */; };
+		03B6486418C9E7590019ADE3 /* JPAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03B6486318C9E7590019ADE3 /* JPAppDelegate.mm */; };
+		03B6486918C9E7590019ADE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B6486818C9E7590019ADE3 /* Images.xcassets */; };
+		03B648A018CA06140019ADE3 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 03B6489F18CA06140019ADE3 /* tessdata */; };
+		03BAEA061E6828DD00929B9E /* libjpeg.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BAEA011E6828DD00929B9E /* libjpeg.8.dylib */; };
+		03BAEA071E6828DD00929B9E /* liblept.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BAEA021E6828DD00929B9E /* liblept.5.dylib */; };
+		03BAEA081E6828DD00929B9E /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BAEA031E6828DD00929B9E /* libpng16.16.dylib */; };
+		03BAEA091E6828DD00929B9E /* libtesseract.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BAEA041E6828DD00929B9E /* libtesseract.3.dylib */; };
+		03BAEA0A1E6828DD00929B9E /* libtiff.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BAEA051E6828DD00929B9E /* libtiff.5.dylib */; };
+		03BAEA0B1E682A2F00929B9E /* libjpeg.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BAEA011E6828DD00929B9E /* libjpeg.8.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03BAEA0C1E682A2F00929B9E /* liblept.5.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BAEA021E6828DD00929B9E /* liblept.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03BAEA0D1E682A2F00929B9E /* libpng16.16.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BAEA031E6828DD00929B9E /* libpng16.16.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03BAEA0E1E682A2F00929B9E /* libtesseract.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BAEA041E6828DD00929B9E /* libtesseract.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03BAEA0F1E682A2F00929B9E /* libtiff.5.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BAEA051E6828DD00929B9E /* libtiff.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03BEBDBA1E59461C0081FA0F /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEBDB91E59461C0081FA0F /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */; };
+		03BEBDBE1E59464D0081FA0F /* MASPreferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BEBDBB1E59464D0081FA0F /* MASPreferences.framework */; };
+		03BEBDBF1E59464D0081FA0F /* MASPreferences.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BEBDBB1E59464D0081FA0F /* MASPreferences.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03BEBDC01E59464D0081FA0F /* MASShortcut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BEBDBC1E59464D0081FA0F /* MASShortcut.framework */; };
+		03BEBDC11E59464D0081FA0F /* MASShortcut.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BEBDBC1E59464D0081FA0F /* MASShortcut.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03BEBDCD1E5964F50081FA0F /* ZXingObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BEBDCC1E5964F50081FA0F /* ZXingObjC.framework */; };
+		03BEBDCE1E5964F50081FA0F /* ZXingObjC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BEBDCC1E5964F50081FA0F /* ZXingObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03BEBDE11E5AAEA30081FA0F /* VDKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEBDE01E5AAEA30081FA0F /* VDKQueue.m */; };
+		03BEBDEA1E5AB2D90081FA0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEBDE91E5AB2D90081FA0F /* AppDelegate.m */; };
+		03BEBDED1E5AB2D90081FA0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BEBDEC1E5AB2D90081FA0F /* main.m */; };
+		03BEBDF21E5AB2D90081FA0F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BEBDF01E5AB2D90081FA0F /* MainMenu.xib */; };
+		03BEBDFA1E5AB3350081FA0F /* AristocratHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03BEBDE61E5AB2D90081FA0F /* AristocratHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03BEBDFB1E5AB7300081FA0F /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BEBDF71E5AB2F40081FA0F /* ServiceManagement.framework */; };
+		03C590B71900EB4F005AB66D /* JPLaunchAtLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C590B61900EB4F005AB66D /* JPLaunchAtLoginManager.m */; };
+		03CCEC37194153B5009429BF /* Licences.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03CCEC36194153B5009429BF /* Licences.rtf */; };
+		03EA577D1E5B061D00ABD15F /* JPLicencesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA577C1E5B061D00ABD15F /* JPLicencesWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03B6489A18CA056D0019ADE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03BAEA0B1E682A2F00929B9E /* libjpeg.8.dylib in CopyFiles */,
+				03BAEA0C1E682A2F00929B9E /* liblept.5.dylib in CopyFiles */,
+				03BAEA0D1E682A2F00929B9E /* libpng16.16.dylib in CopyFiles */,
+				03BAEA0E1E682A2F00929B9E /* libtesseract.3.dylib in CopyFiles */,
+				03BAEA0F1E682A2F00929B9E /* libtiff.5.dylib in CopyFiles */,
+				03BEBDC11E59464D0081FA0F /* MASShortcut.framework in CopyFiles */,
+				03BEBDBF1E59464D0081FA0F /* MASPreferences.framework in CopyFiles */,
+				03BEBDCE1E5964F50081FA0F /* ZXingObjC.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEBDF91E5AB3180081FA0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				03BEBDFA1E5AB3350081FA0F /* AristocratHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0320084818F7DA720039CF05 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		0320084A18F7DB760039CF05 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
+		0320084B18F7DB760039CF05 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		0320084C18F7DB760039CF05 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		0328F75818D7F2E4006C124D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		032D8464193D6BE200E2425E /* Aristocrat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Aristocrat.entitlements; sourceTree = "<group>"; };
+		0343754F1E614F9900FC9533 /* NSString+HeightForString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HeightForString.h"; sourceTree = "<group>"; };
+		034375501E614F9900FC9533 /* NSString+HeightForString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HeightForString.m"; sourceTree = "<group>"; };
+		0348ECC418F82089007509F1 /* Icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Icon.pdf; sourceTree = "<group>"; };
+		03714D241D1D0FDA00AD9AF4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		03AA2D64190235DE00B250A7 /* JPImageRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImageRecognizer.h; sourceTree = "<group>"; };
+		03AA2D65190235DE00B250A7 /* JPImageRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JPImageRecognizer.mm; sourceTree = "<group>"; };
+		03AB1BCD18D7EEE700DACD5D /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		03AB1BCF18D7EEEF00DACD5D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		03AB1BD118D7EEF700DACD5D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		03AB1BD318D7EF1300DACD5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03AB1BD518D7EF1B00DACD5D /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		03B6484D18C9E7590019ADE3 /* Aristocrat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aristocrat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B6485018C9E7590019ADE3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03B6485318C9E7590019ADE3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03B6485518C9E7590019ADE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03B6485818C9E7590019ADE3 /* Aristocrat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aristocrat-Info.plist"; sourceTree = "<group>"; };
+		03B6485A18C9E7590019ADE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03B6485C18C9E7590019ADE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03B6485E18C9E7590019ADE3 /* Aristocrat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aristocrat-Prefix.pch"; sourceTree = "<group>"; };
+		03B6486018C9E7590019ADE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03B6486218C9E7590019ADE3 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+		03B6486318C9E7590019ADE3 /* JPAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JPAppDelegate.mm; sourceTree = "<group>"; };
+		03B6486818C9E7590019ADE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03B6489F18CA06140019ADE3 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		03BAEA011E6828DD00929B9E /* libjpeg.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.8.dylib; path = Aristocrat/Libraries/libjpeg.8.dylib; sourceTree = "<group>"; };
+		03BAEA021E6828DD00929B9E /* liblept.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblept.5.dylib; path = Aristocrat/Libraries/liblept.5.dylib; sourceTree = "<group>"; };
+		03BAEA031E6828DD00929B9E /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.16.dylib; path = Aristocrat/Libraries/libpng16.16.dylib; sourceTree = "<group>"; };
+		03BAEA041E6828DD00929B9E /* libtesseract.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtesseract.3.dylib; path = Aristocrat/Libraries/libtesseract.3.dylib; sourceTree = "<group>"; };
+		03BAEA051E6828DD00929B9E /* libtiff.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtiff.5.dylib; path = Aristocrat/Libraries/libtiff.5.dylib; sourceTree = "<group>"; };
+		03BEBDB81E59461C0081FA0F /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSharingServicePicker+ESSSharingServicePickerMenu.h"; path = "NSSharingServicePicker+ESSSharingServicePickerMenu/NSSharingServicePicker+ESSSharingServicePickerMenu.h"; sourceTree = "<group>"; };
+		03BEBDB91E59461C0081FA0F /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSharingServicePicker+ESSSharingServicePickerMenu.m"; path = "NSSharingServicePicker+ESSSharingServicePickerMenu/NSSharingServicePicker+ESSSharingServicePickerMenu.m"; sourceTree = "<group>"; };
+		03BEBDBB1E59464D0081FA0F /* MASPreferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MASPreferences.framework; path = Carthage/Build/Mac/MASPreferences.framework; sourceTree = "<group>"; };
+		03BEBDBC1E59464D0081FA0F /* MASShortcut.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MASShortcut.framework; path = Carthage/Build/Mac/MASShortcut.framework; sourceTree = "<group>"; };
+		03BEBDCC1E5964F50081FA0F /* ZXingObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZXingObjC.framework; path = Carthage/Build/Mac/ZXingObjC.framework; sourceTree = "<group>"; };
+		03BEBDDF1E5AAEA30081FA0F /* VDKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDKQueue.h; path = VDKQueue/VDKQueue.h; sourceTree = "<group>"; };
+		03BEBDE01E5AAEA30081FA0F /* VDKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDKQueue.m; path = VDKQueue/VDKQueue.m; sourceTree = "<group>"; };
+		03BEBDE61E5AB2D90081FA0F /* AristocratHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AristocratHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BEBDE81E5AB2D90081FA0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03BEBDE91E5AB2D90081FA0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03BEBDEC1E5AB2D90081FA0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03BEBDF11E5AB2D90081FA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03BEBDF31E5AB2D90081FA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BEBDF71E5AB2F40081FA0F /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		03BEBDFC1E5ACBFF0081FA0F /* AristocratHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AristocratHelper.entitlements; sourceTree = "<group>"; };
+		03C590B51900EB4F005AB66D /* JPLaunchAtLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLaunchAtLoginManager.h; sourceTree = "<group>"; };
+		03C590B61900EB4F005AB66D /* JPLaunchAtLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLaunchAtLoginManager.m; sourceTree = "<group>"; };
+		03CCEC36194153B5009429BF /* Licences.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Licences.rtf; sourceTree = "<group>"; };
+		03EA577B1E5B061D00ABD15F /* JPLicencesWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLicencesWindow.h; sourceTree = "<group>"; };
+		03EA577C1E5B061D00ABD15F /* JPLicencesWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLicencesWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B6484A18C9E7590019ADE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEBDFB1E5AB7300081FA0F /* ServiceManagement.framework in Frameworks */,
+				03BEBDBE1E59464D0081FA0F /* MASPreferences.framework in Frameworks */,
+				03BAEA081E6828DD00929B9E /* libpng16.16.dylib in Frameworks */,
+				030978AE1E56C4530017A933 /* Carbon.framework in Frameworks */,
+				03BEBDCD1E5964F50081FA0F /* ZXingObjC.framework in Frameworks */,
+				03BEBDC01E59464D0081FA0F /* MASShortcut.framework in Frameworks */,
+				03714D251D1D0FDA00AD9AF4 /* libz.tbd in Frameworks */,
+				03BAEA0A1E6828DD00929B9E /* libtiff.5.dylib in Frameworks */,
+				03B6485118C9E7590019ADE3 /* Cocoa.framework in Frameworks */,
+				03BAEA061E6828DD00929B9E /* libjpeg.8.dylib in Frameworks */,
+				03BAEA071E6828DD00929B9E /* liblept.5.dylib in Frameworks */,
+				03AB1BD418D7EF1300DACD5D /* QuartzCore.framework in Frameworks */,
+				03AB1BD218D7EEF700DACD5D /* CoreVideo.framework in Frameworks */,
+				03BAEA091E6828DD00929B9E /* libtesseract.3.dylib in Frameworks */,
+				03AB1BCE18D7EEE700DACD5D /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEBDE31E5AB2D90081FA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AA2D621902313700B250A7 /* VDKQueue */ = {
+			isa = PBXGroup;
+			children = (
+				03BEBDDF1E5AAEA30081FA0F /* VDKQueue.h */,
+				03BEBDE01E5AAEA30081FA0F /* VDKQueue.m */,
+			);
+			name = VDKQueue;
+			sourceTree = "<group>";
+		};
+		03AA2D631902313F00B250A7 /* NSSharingServicePicker+ESSSharingServicePickerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				03BEBDB81E59461C0081FA0F /* NSSharingServicePicker+ESSSharingServicePickerMenu.h */,
+				03BEBDB91E59461C0081FA0F /* NSSharingServicePicker+ESSSharingServicePickerMenu.m */,
+			);
+			name = "NSSharingServicePicker+ESSSharingServicePickerMenu";
+			sourceTree = "<group>";
+		};
+		03B6484418C9E7590019ADE3 = {
+			isa = PBXGroup;
+			children = (
+				03B6485618C9E7590019ADE3 /* Aristocrat */,
+				03BEBDE71E5AB2D90081FA0F /* AristocratHelper */,
+				03B6484F18C9E7590019ADE3 /* Frameworks */,
+				03B6484E18C9E7590019ADE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B6484E18C9E7590019ADE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B6484D18C9E7590019ADE3 /* Aristocrat.app */,
+				03BEBDE61E5AB2D90081FA0F /* AristocratHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B6484F18C9E7590019ADE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03BAEA011E6828DD00929B9E /* libjpeg.8.dylib */,
+				03BAEA021E6828DD00929B9E /* liblept.5.dylib */,
+				03BAEA031E6828DD00929B9E /* libpng16.16.dylib */,
+				03BAEA041E6828DD00929B9E /* libtesseract.3.dylib */,
+				03BAEA051E6828DD00929B9E /* libtiff.5.dylib */,
+				03BEBDCC1E5964F50081FA0F /* ZXingObjC.framework */,
+				03BEBDBB1E59464D0081FA0F /* MASPreferences.framework */,
+				03BEBDBC1E59464D0081FA0F /* MASShortcut.framework */,
+				03714D241D1D0FDA00AD9AF4 /* libz.tbd */,
+				0320084818F7DA720039CF05 /* Carbon.framework */,
+				03BEBDF71E5AB2F40081FA0F /* ServiceManagement.framework */,
+				0328F75818D7F2E4006C124D /* AVFoundation.framework */,
+				03AB1BD518D7EF1B00DACD5D /* QTKit.framework */,
+				03AB1BD318D7EF1300DACD5D /* QuartzCore.framework */,
+				03AB1BD118D7EEF700DACD5D /* CoreVideo.framework */,
+				03AB1BCF18D7EEEF00DACD5D /* CoreMedia.framework */,
+				03AB1BCD18D7EEE700DACD5D /* ApplicationServices.framework */,
+				03B6485218C9E7590019ADE3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B6485218C9E7590019ADE3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B6485018C9E7590019ADE3 /* Cocoa.framework */,
+				03B6485318C9E7590019ADE3 /* AppKit.framework */,
+				03B6485518C9E7590019ADE3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03B6485618C9E7590019ADE3 /* Aristocrat */ = {
+			isa = PBXGroup;
+			children = (
+				03AA2D621902313700B250A7 /* VDKQueue */,
+				03AA2D631902313F00B250A7 /* NSSharingServicePicker+ESSSharingServicePickerMenu */,
+				03B6486218C9E7590019ADE3 /* JPAppDelegate.h */,
+				03B6486318C9E7590019ADE3 /* JPAppDelegate.mm */,
+				03EA577B1E5B061D00ABD15F /* JPLicencesWindow.h */,
+				03EA577C1E5B061D00ABD15F /* JPLicencesWindow.m */,
+				03AA2D64190235DE00B250A7 /* JPImageRecognizer.h */,
+				03AA2D65190235DE00B250A7 /* JPImageRecognizer.mm */,
+				03C590B51900EB4F005AB66D /* JPLaunchAtLoginManager.h */,
+				03C590B61900EB4F005AB66D /* JPLaunchAtLoginManager.m */,
+				0320084A18F7DB760039CF05 /* GeneralPreferencesView.xib */,
+				0320084B18F7DB760039CF05 /* GeneralPreferencesViewController.h */,
+				0320084C18F7DB760039CF05 /* GeneralPreferencesViewController.m */,
+				0343754F1E614F9900FC9533 /* NSString+HeightForString.h */,
+				034375501E614F9900FC9533 /* NSString+HeightForString.m */,
+				03CCEC36194153B5009429BF /* Licences.rtf */,
+				03B6489F18CA06140019ADE3 /* tessdata */,
+				03B6486818C9E7590019ADE3 /* Images.xcassets */,
+				03B6485718C9E7590019ADE3 /* Supporting Files */,
+			);
+			path = Aristocrat;
+			sourceTree = "<group>";
+		};
+		03B6485718C9E7590019ADE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				032D8464193D6BE200E2425E /* Aristocrat.entitlements */,
+				0348ECC418F82089007509F1 /* Icon.pdf */,
+				03B6485818C9E7590019ADE3 /* Aristocrat-Info.plist */,
+				03B6485918C9E7590019ADE3 /* InfoPlist.strings */,
+				03B6485C18C9E7590019ADE3 /* main.m */,
+				03B6485E18C9E7590019ADE3 /* Aristocrat-Prefix.pch */,
+				03B6485F18C9E7590019ADE3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03BEBDE71E5AB2D90081FA0F /* AristocratHelper */ = {
+			isa = PBXGroup;
+			children = (
+				03BEBDFC1E5ACBFF0081FA0F /* AristocratHelper.entitlements */,
+				03BEBDE81E5AB2D90081FA0F /* AppDelegate.h */,
+				03BEBDE91E5AB2D90081FA0F /* AppDelegate.m */,
+				03BEBDF01E5AB2D90081FA0F /* MainMenu.xib */,
+				03BEBDF31E5AB2D90081FA0F /* Info.plist */,
+				03BEBDEB1E5AB2D90081FA0F /* Supporting Files */,
+			);
+			path = AristocratHelper;
+			sourceTree = "<group>";
+		};
+		03BEBDEB1E5AB2D90081FA0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BEBDEC1E5AB2D90081FA0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B6484C18C9E7590019ADE3 /* Aristocrat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B6487E18C9E7590019ADE3 /* Build configuration list for PBXNativeTarget "Aristocrat" */;
+			buildPhases = (
+				03B6484918C9E7590019ADE3 /* Sources */,
+				03B6484A18C9E7590019ADE3 /* Frameworks */,
+				03B6489A18CA056D0019ADE3 /* CopyFiles */,
+				03BEBDF91E5AB3180081FA0F /* CopyFiles */,
+				03B6484B18C9E7590019ADE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aristocrat;
+			productName = Aristocrat;
+			productReference = 03B6484D18C9E7590019ADE3 /* Aristocrat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03BEBDE51E5AB2D90081FA0F /* AristocratHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BEBDF41E5AB2D90081FA0F /* Build configuration list for PBXNativeTarget "AristocratHelper" */;
+			buildPhases = (
+				03BEBDE21E5AB2D90081FA0F /* Sources */,
+				03BEBDE31E5AB2D90081FA0F /* Frameworks */,
+				03BEBDE41E5AB2D90081FA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AristocratHelper;
+			productName = AristocratHelper;
+			productReference = 03BEBDE61E5AB2D90081FA0F /* AristocratHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B6484518C9E7590019ADE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Josh Parnham";
+				TargetAttributes = {
+					03B6484C18C9E7590019ADE3 = {
+						DevelopmentTeam = 3C7269R37R;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					03BEBDE51E5AB2D90081FA0F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3C7269R37R;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 03B6484818C9E7590019ADE3 /* Build configuration list for PBXProject "Aristocrat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B6484418C9E7590019ADE3;
+			productRefGroup = 03B6484E18C9E7590019ADE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B6484C18C9E7590019ADE3 /* Aristocrat */,
+				03BEBDE51E5AB2D90081FA0F /* AristocratHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B6484B18C9E7590019ADE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B6485B18C9E7590019ADE3 /* InfoPlist.strings in Resources */,
+				03B6486918C9E7590019ADE3 /* Images.xcassets in Resources */,
+				03B648A018CA06140019ADE3 /* tessdata in Resources */,
+				03B6486118C9E7590019ADE3 /* Credits.rtf in Resources */,
+				03CCEC37194153B5009429BF /* Licences.rtf in Resources */,
+				0348ECC518F82089007509F1 /* Icon.pdf in Resources */,
+				0320084D18F7DB760039CF05 /* GeneralPreferencesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEBDE41E5AB2D90081FA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEBDF21E5AB2D90081FA0F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B6484918C9E7590019ADE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B6486418C9E7590019ADE3 /* JPAppDelegate.mm in Sources */,
+				034375511E614F9900FC9533 /* NSString+HeightForString.m in Sources */,
+				03BEBDBA1E59461C0081FA0F /* NSSharingServicePicker+ESSSharingServicePickerMenu.m in Sources */,
+				03B6485D18C9E7590019ADE3 /* main.m in Sources */,
+				03C590B71900EB4F005AB66D /* JPLaunchAtLoginManager.m in Sources */,
+				03AA2D66190235DE00B250A7 /* JPImageRecognizer.mm in Sources */,
+				03EA577D1E5B061D00ABD15F /* JPLicencesWindow.m in Sources */,
+				0320084E18F7DB760039CF05 /* GeneralPreferencesViewController.m in Sources */,
+				03BEBDE11E5AAEA30081FA0F /* VDKQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BEBDE21E5AB2D90081FA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BEBDED1E5AB2D90081FA0F /* main.m in Sources */,
+				03BEBDEA1E5AB2D90081FA0F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03B6485918C9E7590019ADE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B6485A18C9E7590019ADE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03B6485F18C9E7590019ADE3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B6486018C9E7590019ADE3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03BEBDF01E5AB2D90081FA0F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BEBDF11E5AB2D90081FA0F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B6487C18C9E7590019ADE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03B6487D18C9E7590019ADE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03B6487F18C9E7590019ADE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_ENTITLEMENTS = Aristocrat/Aristocrat.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3C7269R37R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/josh/Dropbox/Development/Mac/Apps/Aristocrat,
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aristocrat/Aristocrat-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Aristocrat/Aristocrat-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Aristocrat/Libraries",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshparnham.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03B6488018C9E7590019ADE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_ENTITLEMENTS = Aristocrat/Aristocrat.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3C7269R37R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/josh/Dropbox/Development/Mac/Apps/Aristocrat,
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aristocrat/Aristocrat-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Aristocrat/Aristocrat-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Aristocrat/Libraries",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshparnham.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03BEBDF51E5AB2D90081FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = AristocratHelper/AristocratHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3C7269R37R;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = AristocratHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshparnham.AristocratHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03BEBDF61E5AB2D90081FA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = AristocratHelper/AristocratHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 3C7269R37R;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = AristocratHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshparnham.AristocratHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B6484818C9E7590019ADE3 /* Build configuration list for PBXProject "Aristocrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B6487C18C9E7590019ADE3 /* Debug */,
+				03B6487D18C9E7590019ADE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B6487E18C9E7590019ADE3 /* Build configuration list for PBXNativeTarget "Aristocrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B6487F18C9E7590019ADE3 /* Debug */,
+				03B6488018C9E7590019ADE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BEBDF41E5AB2D90081FA0F /* Build configuration list for PBXNativeTarget "AristocratHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BEBDF51E5AB2D90081FA0F /* Debug */,
+				03BEBDF61E5AB2D90081FA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B6484518C9E7590019ADE3 /* Project object */;
+}
