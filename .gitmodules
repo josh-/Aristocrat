@@ -1,0 +1,6 @@
+[submodule "Aristocrat/NSSharingServicePicker+ESSSharingServicePickerMenu"]
+	path = Aristocrat/NSSharingServicePicker+ESSSharingServicePickerMenu
+	url = https://gist.github.com/5097211.git
+[submodule "Aristocrat/VDKQueue"]
+	path = Aristocrat/VDKQueue
+	url = https://github.com/michal-tomlein/VDKQueue.git
