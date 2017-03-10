@@ -1,6 +1,8 @@
 # Aristocrat
 
-Aristocrat is simple utility that makes Optical Character Recognition and Barcode Decoding easy. Select an area of your screen that contains text or barcodes (which can be done through a system-wide hotkey) and Aristocrat works its magic.
+Aristocrat is simple utility that allows you to decode barcodes on your screen and read the text in images and scanned PDFs.
+
+After choosing "Capture Screen..." in the Aristocrat menu bar, select an area of your screen (which can be done through a system-wide hotkey) and Aristocrat works its magic.
 
 ## Installation
 
