@@ -32,6 +32,8 @@
 	<string>Copyright © 2017 Josh Parnham. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
