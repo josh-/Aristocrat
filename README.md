@@ -18,7 +18,9 @@ After choosing "Capture Screen..." in the Aristocrat menu bar, select an area of
 2. Install dependencies
     - With [carthage](https://github.com/Carthage/Carthage) installed, run the following in the repository's directory:
 
-    carthage bootstrap --platform mac
+```sh
+carthage bootstrap --platform mac
+```
 
 # TODO
 
