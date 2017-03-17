@@ -4,8 +4,8 @@ Aristocrat is simple utility that allows you to decode barcodes on your screen a
 
 After choosing "Capture Screen..." in the Aristocrat menu bar, select an area of your screen (which can be done through a system-wide hotkey) and Aristocrat works its magic.
 
-![OCR Text](http://joshparnham.com/projects/aristocrat/1.jpg)
-![QR Code](http://joshparnham.com/projects/aristocrat/3.jpg)
+<img src="http://joshparnham.com/projects/aristocrat/1.jpg" width="512px">
+<img src="http://joshparnham.com/projects/aristocrat/3.jpg" width="512px">
 
 ## Installation
 
