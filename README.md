@@ -4,6 +4,9 @@ Aristocrat is simple utility that allows you to decode barcodes on your screen a
 
 After choosing "Capture Screen..." in the Aristocrat menu bar, select an area of your screen (which can be done through a system-wide hotkey) and Aristocrat works its magic.
 
+![OCR Text](http://joshparnham.com/projects/aristocrat/1.jpg)
+![QR Code](http://joshparnham.com/projects/aristocrat/3.jpg)
+
 ## Installation
 
 <a href="https://geo.itunes.apple.com/us/app/aristocrat/id886910172?mt=12" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/macappstore-lrg.svg) no-repeat;width:165px;height:40px;background-size:contain;"></a>
