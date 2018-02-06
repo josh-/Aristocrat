@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030978AE1E56C4530017A933 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320084818F7DA720039CF05 /* Carbon.framework */; };
 		0320084D18F7DB760039CF05 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0320084A18F7DB760039CF05 /* GeneralPreferencesView.xib */; };
 		0320084E18F7DB760039CF05 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0320084C18F7DB760039CF05 /* GeneralPreferencesViewController.m */; };
 		034375511E614F9900FC9533 /* NSString+HeightForString.m in Sources */ = {isa = PBXBuildFile; fileRef = 034375501E614F9900FC9533 /* NSString+HeightForString.m */; };
@@ -83,7 +82,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0320084818F7DA720039CF05 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		0320084A18F7DB760039CF05 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
 		0320084B18F7DB760039CF05 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
 		0320084C18F7DB760039CF05 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				03BEBDFB1E5AB7300081FA0F /* ServiceManagement.framework in Frameworks */,
 				03BEBDBE1E59464D0081FA0F /* MASPreferences.framework in Frameworks */,
 				03BAEA081E6828DD00929B9E /* libpng16.16.dylib in Frameworks */,
-				030978AE1E56C4530017A933 /* Carbon.framework in Frameworks */,
 				03BEBDCD1E5964F50081FA0F /* ZXingObjC.framework in Frameworks */,
 				03BEBDC01E59464D0081FA0F /* MASShortcut.framework in Frameworks */,
 				03714D251D1D0FDA00AD9AF4 /* libz.tbd in Frameworks */,
@@ -222,7 +219,6 @@
 				03BEBDBB1E59464D0081FA0F /* MASPreferences.framework */,
 				03BEBDBC1E59464D0081FA0F /* MASShortcut.framework */,
 				03714D241D1D0FDA00AD9AF4 /* libz.tbd */,
-				0320084818F7DA720039CF05 /* Carbon.framework */,
 				03BEBDF71E5AB2F40081FA0F /* ServiceManagement.framework */,
 				0328F75818D7F2E4006C124D /* AVFoundation.framework */,
 				03AB1BD518D7EF1B00DACD5D /* QTKit.framework */,
