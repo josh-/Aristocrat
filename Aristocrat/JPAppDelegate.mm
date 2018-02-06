@@ -135,7 +135,7 @@ static NSString *const UnhyphenateRemoveLineBreaksKey = @"UnhyphenateRemoveLineB
     [self captureScreenArea:self];
 }
 
-- (void)updateMenuWithText:(NSString *)string
+- (void)updateMenuWithText:(NSString *)textValue
 {
     [self.menu removeAllItems];
     
@@ -153,10 +153,10 @@ static NSString *const UnhyphenateRemoveLineBreaksKey = @"UnhyphenateRemoveLineB
     captureCopyMenuItem.keyEquivalentModifierMask = captureCopyShortcut.modifierFlags;
     [self.menu addItem:captureCopyMenuItem];
     
-    if (string) {
+    if (textValue) {
         [self.menu addItem:[NSMenuItem separatorItem]];
         
-        NSMenuItem *textMenuItem = [[NSMenuItem alloc] initWithTitle:string action:nil keyEquivalent:@""];
+        NSMenuItem *textMenuItem = [[NSMenuItem alloc] initWithTitle:textValue action:nil keyEquivalent:@""];
         
         NSTextView *textView = [[NSTextView alloc] initWithFrame:NSMakeRect(0, 0, 0, 190)];
         textView.autoresizingMask = NSViewWidthSizable;
@@ -164,7 +164,7 @@ static NSString *const UnhyphenateRemoveLineBreaksKey = @"UnhyphenateRemoveLineB
         textView.enabledTextCheckingTypes = NSTextCheckingAllTypes;
         textView.automaticDataDetectionEnabled = YES;
         textView.backgroundColor = [NSColor clearColor];
-        [textView insertText:string];
+        textView.string = textValue;
         [textView checkTextInDocument:nil];
         
         textView.frame = NSMakeRect(0, 0, 1, [NSString heightForString:self.recognizedString font:textView.font width:self.menu.minimumWidth]);
