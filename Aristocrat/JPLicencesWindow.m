@@ -14,7 +14,7 @@
 {
     self = [super initWithContentRect:contentRect styleMask:style backing:bufferingType defer:flag];
     if (self) {
-        self = (JPLicencesWindow *)[[NSWindow alloc] initWithContentRect:NSMakeRect(0, 0, 600, 600) styleMask:(NSTitledWindowMask | NSClosableWindowMask) backing:NSBackingStoreBuffered defer:NO];
+        self = (JPLicencesWindow *)[[NSWindow alloc] initWithContentRect:NSMakeRect(0, 0, 600, 600) styleMask:(NSWindowStyleMaskTitled | NSWindowStyleMaskClosable) backing:NSBackingStoreBuffered defer:NO];
         self.releasedWhenClosed = NO;
         
         // Based on https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/TextUILayer/Tasks/TextInScrollView.html

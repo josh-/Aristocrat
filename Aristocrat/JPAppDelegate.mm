@@ -47,9 +47,9 @@ static NSString *const UnhyphenateRemoveLineBreaksKey = @"UnhyphenateRemoveLineB
     [self deduplicateRunningInstances];
     
     // Cmd-Shift-8
-    MASShortcut *defaultCaptureShortcut = [MASShortcut shortcutWithKeyCode:0x1c modifierFlags:NSCommandKeyMask|NSShiftKeyMask];
+    MASShortcut *defaultCaptureShortcut = [MASShortcut shortcutWithKeyCode:0x1c modifierFlags:NSEventModifierFlagCommand|NSEventModifierFlagShift];
     // Cmd-Shift-9
-    MASShortcut *defaultCaptureCopyShortcut = [MASShortcut shortcutWithKeyCode:0x19 modifierFlags:NSCommandKeyMask|NSShiftKeyMask];
+    MASShortcut *defaultCaptureCopyShortcut = [MASShortcut shortcutWithKeyCode:0x19 modifierFlags:NSEventModifierFlagCommand|NSEventModifierFlagShift];
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults registerDefaults:@{ CaptureShortcutKey: [NSKeyedArchiver archivedDataWithRootObject:defaultCaptureShortcut], CaptureCopyShortcutKey: [NSKeyedArchiver archivedDataWithRootObject:defaultCaptureCopyShortcut], UnhyphenateRemoveLineBreaksKey: @NO }];
